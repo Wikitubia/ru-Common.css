@@ -1,0 +1,10 @@
+@import "/ru/load.php?only=styles&mode=articles&articles=MediaWiki:Infoboxes.css|MediaWiki:Themes.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto%20Slab%7CRoboto%20Slab');
+
+/* Nicknames */
+a[href$="Anti%20Sonic%20Forces"], a[href$="Anti_Sonic_Forces"], a[href$="Anti Sonic Forces"], a[href$="Anti%20Sonic%20Forces"]:not(.wds-community-header), a[href$="Anti_Sonic_Forces"]:not(.wds-community-header), a[href$="Anti Sonic Forces"]:not(.wds-community-header)
+{color: #845ec2 !important; font-family: 'Arial Black', serif; font-size: 15px; letter-spacing: 0.5px;}
+
+/* Body */
+.fandom-community-header {font-family: 'Roboto Slab', serif;}
+.page__main {font-family: 'Roboto Slab', serif;}
