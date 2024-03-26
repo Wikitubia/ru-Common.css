@@ -18,6 +18,6 @@ jobs:
       - run: echo "[INFO] Fetching from site..."
       - run: echo "[INFO] $GITHUB_WORKSPACE" && cd "$GITHUB_WORKSPACE"
       - run: wget -P /home/runner/work/Common.css -O Common.css '${{env.FETCH_URL}}'
-      - run: git add Common.js
+      - run: git add Common.css
       - run: git commit -m 'Fetch latest revision from URL' && git push -u origin main || echo '[INFO] Source is the same as repository. Skipping push...'
       - run: echo '[EXIT] Job done!'; exit 0
